@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+:root {
+    --fontePrincipal: 'Merriweather', serif;
+    --fonteSubPrincipal: 'Lato', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background: #D7D5FF;
+    height: 560px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 490px;
+    margin-left: 100px;
+    padding: 137px 0 0 100px;
+}
+
+.tituloPrincipal {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 36px;
+    color: #2B2B2B;
+    margin-bottom: 17px;
+}
+
+.descricaoPrincipal {
+    font-family: var(--fonteSubPrincipal);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+
+.btn {
+    font-family: var(--fonteSubPrincipal);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    background: #6C63FF;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.img {
+    background: url(../img/image.svg) 100% 0 no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 500px;
+    padding: 0 200px 0 0;
+    margin: 77px 190px 0 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quadradoMaior {
+    width: 340px;
+    height: 423px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-left: 100px;
+    margin-bottom: 68px;
+}
+
+.quadradoColorido {
+    width: 340px;
+    height: 222px;
+    margin-bottom: 24px;
+}
+
+.artigo {
+    margin-left: 30px;
+}
+
+.cardTitulo {
+    font-family: var(--fontePrincipal);
+    font-weight: 700;
+    font-size: 24px;
+    color: #2B2B2B;
+    margin-bottom: 26px;
+}
+
+.cardDescricao {
+    font-family: var(--fonteSubPrincipal);
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+fieldset {
+    border: none;
+}
+
+.form {
+    background: #D7D5FF;
+    margin: auto;
+    height: 750px;
+}
+
+.paginaContato {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 32px;
+    color: #2B2B2B;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 60px;
+}
+
+input, textarea {
+    display: block;
+    width: 470px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    outline: 0;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #555555;
+}
+
+textarea {
+    width: 470px;
+    height: 165px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    font-family: var(--fonteSubPrincipal);
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(110, 114, 117, 0.74);
+}
+
+div .btnForm {
+    font-family: var(--fonteSubPrincipal);
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 471px;
+    height: 50px;
+    background: #6C63FF;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    margin: auto;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
